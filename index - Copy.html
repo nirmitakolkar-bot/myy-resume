@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="name">Nirmita Kolkar</h1>
+    </header>
+
+    <section class="bio">
+      <h2>Bio Data</h2>
+      <p><b>Date of Birth:</b> 19 march 2004</p>
+      <p><b>Gender:</b> Female</p>
+      <p><b>Email:</b> nirmita@mail.com</p>
+      <p><b>Phone:</b> +91 9686248034</p>
+      <p><b>Address:</b> 
+        
+        Bidar,karnataka,India</p>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <ul>
+        <li> (current) B.E in Computer Science – S,G Balegundri Institute of Technology belagaavi, 2023</li>
+        <li>PUC – Sai Spoorthi pu college, 2021</li>
+        <li>SSLC – DPS School, 2019</li>
+      </ul>
+    </section>
+    <section class ="Hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+                  
+        <li>Reading books</li>
+        <li>watching tv </li>
+        <li>Travelling </li>
+      </ul>
+
+
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>java</li>
+        <li>Database Management (MySQL)</li>
+      </ul>
+    </section>
+        <section id="objective">
+      <h2>Career Objective</h2>
+      <p>
+        To obtain a responsible position in a dynamic organization where I can utilize my
+        technical and analytical skills to contribute to the success of the company while
+        continuously learning and growing in the field of web development.
+      </p>
+    </section>
+
+
+    <button id="themeBtn">Change Theme</button>
+  </div>
+
+  <script>
+    $("#themeBtn").click(function(){
+      $("body").toggleClass("dark");
+    });
+  </script>
+</body>
+</html>
